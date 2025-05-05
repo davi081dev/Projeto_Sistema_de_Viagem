@@ -1,0 +1,332 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap ");
+:root{
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+body{
+    font-family: 'Plus Jakarta Sans' ;
+    margin: 0px;
+}
+#container01{
+    border: var(--Cinza_claro) solid 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+}
+#logo{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+#icone{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-left: 800px;
+}
+#icone i{
+    color: var(--Azul);
+    margin-right: 5px;
+}
+
+
+#container02{
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+#conteudo01{
+    color: var(--Texto_escuro);
+    text-align: left;
+    width: 50%;
+}
+#conteudo01 h1{
+    font-size: 60px;
+    font-weight: 1000;
+}
+.azul{
+    color: var(--Azul);
+}
+.azul_escuro{
+    color: var(--Texto_escuro);
+}
+.cinza{
+    color: gray;
+}
+.azul_emoji{
+    color: var(--Texto_escuro);
+    font-size: 20px;
+}
+#imagem01{
+    justify-content: right
+}
+
+#container03{
+    display: flex;
+    align-items: center;
+}
+#cx_azul{
+    color: white;
+    background-color: var(--Azul);
+    width: 150px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#cx_play i{
+    color: var(--Azul);
+    margin-right: 10px;
+}
+
+#container04{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+.marcas{
+    min-width: 17vw;
+    margin-bottom: 20px;
+}
+
+
+#container05{
+    margin-left: 80px;
+
+}
+#container05 h1{
+    color: var(--Texto_escuro);
+}
+
+#container06{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+.destinos{
+    min-width: 20vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    width: 50px;
+    height: 350px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.destinos:nth-of-type(1){
+    background-image: url("imagens/destino2.png");
+}
+.destinos:nth-of-type(2){
+    background-image: url("imagens/destino1.png");
+}
+.destinos:nth-of-type(3){
+    background-image: url("imagens/destino5.png");
+}
+.destinos:nth-of-type(4){
+    background-image: url("imagens/destino4.png");
+}
+
+.legenda{
+    background-color: rgba( 255, 255, 255, 0.8);
+    width: 150px;
+    text-align: left;
+    border-radius: 0px 10px 0px 0px;
+}
+.span_legenda{
+    color: var(--Texto_escuro);
+    font-size: 20px;
+}
+.legenda p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+
+#container07{
+    color: var(--Texto_escuro);
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+    display: flex;
+}
+.cx_bege{
+    background-color: #FFDEAD;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.emojis{
+    display: flex;
+}
+.azul_emoji{
+    color: var(--Texto_escuro);
+    font-size: 25px;
+}
+#container07 p{
+    font-size: 16px;
+}
+#img_container07{
+    align-items: center;
+    width: 50px;
+}
+.img_reserva{
+    width: 700px;
+    height: 700px;
+}
+
+
+
+
+#container08_topo{
+    text-align: center;
+}
+#container08_topo h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+#container08_topo h5{
+    font-weight: 500;
+}
+#img_container08{
+    margin: auto;
+    margin-left: 120px;
+}
+.img_mapa{
+    width: 1100px;
+    height: 400px;
+}
+#container08_rodape{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#container08_rodape p{
+    color: var(--Texto_escuro);
+}
+.icon_txt{
+    display: flex;
+
+    margin-right: 120px;
+    justify-content: space-evenly;
+    width: 350px;
+}
+.icon_conteudo08{
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 300px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+
+
+#container09{
+    margin-top: 120px;
+    margin-left: 80px;
+}
+#container09_topo h1{
+    color: var(--Texto_escuro);
+    font-size: 40px;
+}
+#container09_meio{
+    display: flex;
+    margin-top: 40px;
+}
+#container09_imagenstxt{
+    text-align: center;
+}
+.img_reduzida{
+    width: 275px;
+    border-radius: 10px 10px 0px 0px;
+}
+.ajustar_tamanho{
+    font-weight: 300;
+    font-size: 14px;
+}
+.img_video{
+    width: 900px;
+    margin-left: 30px;
+}
+
+.img_destino05{
+    width:65rem;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+#container09_rodape{
+    background-image: url("imagens/destino5.png");
+    color: white;
+
+}
+
+
+#container10_topo{
+    text-align: center;
+    margin-top: 120px;
+}
+#container10_topo h1{
+    font-size: 50px;
+}
+#container10_topo h5{
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+#container10_meio{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 500px;
+}
+#container10_meio p{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+#container11{
+    margin-left: 140px;
+    margin-top: 120px;
+}
+#container11_meio{
+    margin-top: 30px;
+}
+#container11 p{
+    color: var(--Cinza_claro);
+    font-size: 12px;
+    margin-top: 0.5px;
+    margin-left: 3px;
+}
+#container11 i{
+    color: var(--Cinza_claro);
+    font-size: 13px;
+    align-items:flex-end;
+}
+.container_info{
+    display: flex;
+    margin-right: px;
+}
+#container11_rodape{
+    margin-left: 400px;
+    margin-top: 60px;
+}
